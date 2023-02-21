@@ -1,0 +1,38 @@
+.contenedor{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+
+}
+.fila1{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: center;
+}
+.fila2{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: center;
+}
+.img--blanco{
+    background: white;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+.img--negro{
+    background: black;
+    width: 50px;
+    height: 50px;  
+    color: white;
+}
